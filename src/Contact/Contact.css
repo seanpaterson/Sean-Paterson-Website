@@ -41,6 +41,7 @@
 
 .button-style{
     color: white;
-    transform: scale(2);
+    height: 100px;
+    width: 100px;
     animation: textFadeIn 3.5s;
 }

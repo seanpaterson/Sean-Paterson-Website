@@ -6,7 +6,7 @@ import './About.css';
 
 function About(props) {
     return ( 
-    <div  style={{ width: '100%', backgroundImage: `linear-gradient(0.60turn, var(--dark-teal), var(--blue))` }}>
+    <div  style={{ width: '100%', backgroundImage: `linear-gradient(0.60turn, var(--dark-teal), var(--blue))`, minHeight: '100vh', overflow: 'hidden' }}>
         <Grid
         container
         direction="row"

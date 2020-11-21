@@ -38,13 +38,13 @@ function Contact(props) {
                                 <IconButton 
                                 className="button-style" 
                                 onClick={()=> window.open("https://www.linkedin.com/in/sean-paterson-b31835124/")}>
-                                    <LinkedInIcon style={{color:"white"}}/>
+                                    <LinkedInIcon style={{color:"white", height: '50px', width: '50px'}}/>
                             </IconButton>
                             </div>
                             <div style={{paddingTop: "20px", paddingLeft: "10vw", paddingRight: "10vw"}}>
                                 <IconButton className="button-style"
                                 onClick={()=> window.open("https://github.com/seanpaterson")}>
-                                    <GitHubIcon style={{color:"white"}}/>
+                                    <GitHubIcon style={{color:"white", height: '50px', width: '50px'}}/>
                                 </IconButton>
                             </div>
                         </Grid>
