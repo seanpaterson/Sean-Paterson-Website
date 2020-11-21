@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Veteran Affairs Office Website",
+        "color": "#003f72",
+        "techStack": ["Typescript", "CSS", "HTML", "NodeJS", "Angular", "Travis CI", "Jasmine", "Github"],
+        "description": [
+            "Developed a portion of the Veteran’s Affairs Office website in an agile team of seven other software developers.",
+            "The front-end was written in Typescript utilizing the Angular framework.",
+            "Utilized Github for source control and Travis CI for continuous integration.",
+            "Unit tested the project with over 98% coverage using Jasmine."
+        ]
+    },
+    {
+        "name": "Bytebook",
+        "color": "#22b14c",
+        "github": "https://github.com/seanpaterson/ByteBook",
+        "techStack": ["Javascript", "CSS", "HTML", "NodeJS", "ReactJS", "AWS", "mySQL", "Express", "Material UI", "GitHub"],
+        "description": [
+            "Cookbook web application for creating, sharing, and viewing recipes.",
+            "Front-end  written in ReactJS while utilizing the Material UI library.",
+            "Back-end written in NodeJS using Express to implement REST API calls.",
+            "AWS RDS mySQL database for retrieving, updating, and inserting account information and  recipes.",
+            "JSON Web Tokens for user identification and security."
+        ]
+    },
+    {
+        "name":"The Home Depot Project",
+        "color": "#ff5e00",
+        "techStack": ["Javascript", "CSS", "HTML", "NodeJS", "ReactJS", "GCP", "noSQL", "Express", "Material UI", "Jest", "Kubernetes"],
+        "description": [
+            "Developed a new web application for the Home Depot based around connecting their product database with an external API called Hover.",
+            "The project was conducted in a scrum team of six developers.",
+            "The front-end was written in ReactJS while heavily using the Material-UI library.",
+            "The back-end was developed using Express to develop new API end-points from scratch.",
+            "Data was stored and retrieved using a NoSQL database.",
+            "GitHub was used for source control with Travis CI acting as a continuous integration server.",
+            "The application was house on Google Cloud Platform with Kubernetes being used as a release manager."
+        ]
+    },
+    {
+        "name":"The Homeless API",
+        "color": "#808080",
+        "github": "https://github.com/seanpaterson/homeless-api",
+        "techStack": ["Javascript", "NodeJS", "mySQL", "Express", "Github"],
+        "description": [
+            "Created a new set of API endpoints used for retrieving the homeless populations of major US cities.",
+            "Developed the API using NodeJS with the Express framework.",
+            "Stored the city and population info on a mySQL database that is used heavily throughout the project."
+        ]
+    },
+    {
+        "name":"Connect Four Android App",
+        "color": "#FF6347",
+        "github": "https://github.com/seanpaterson/Connect-4-In-Space-",
+        "techStack":["Java"],
+        "description": [
+            "Created a connect-four Android app.",
+            "Other than developing the user interface and animations using Android Studio, the entire app was written in Java.",
+            "The app also utilized wireless sockets to enable online multiplayer."
+        ]
+    },
+    {
+        "name":"jammming",
+        "color": "#6e2b8a",
+        "github": "https://github.com/seanpaterson/jamming",
+        "techStack": ["Javascript", "HTML", "CSS", "ReactJS"],
+        "description": [
+            "Developed a web application that connects to the Spotify music API to create, edit, and delete user-created playlists.",
+            "Used ReactJS to create a dynamic user interface and playlist creation.",
+            "Utilized OAUTH and json web tokens to properly communicate with Spotify API."
+        ]
+    },
+    {
+        "name":"Internet Relay Chat",
+        "color": "#6e2b8a",
+        "github": "https://github.com/seanpaterson/Internet-Relay-Chat",
+        "techStack": ["Java", "Apache HTTP Server"],
+        "description": [
+            "Constructed a new internet relay chat protocol. The IRC allows clients to connect to a server, create and join chat rooms, and send messages to other clients who are part of the same chat rooms.",
+            "Client and server sides of the application were written in Java and utilized the Apache HTTP Server library to handle the communication between the client and server."
+        ]
+    },
+    {
+        "name":"Vehicle Diagnostic Tool",
+        "color": "#6e2b8a",
+        "techStack": ["C", "Assembly Language", "CAN Bus Protocol", "JSON", "XML"],
+        "description": [
+            "Advance the capabilities of a next-generation vehicle diagnostic tool.",
+            "Code added is written in C and machine code which results in a faster tool.",
+            "Enhance the tool’s capability to communicate with numerous vehicle types via the CAN Bus protocol.",
+            "The tool includes bluetooth and USB capabilities which revolve around sending JSON messages to and from the device.",
+            "Implemented many OEM diagnostic functions for the tool including advanced Diagnostic Trouble Coding, Stationary Desoot, ABS Initialization, Tire Size Adjustment, Transmission Initialization, and many more."
+        ]
+    },
+    {
+        "name":"CAN Bus Vehicle Emulator",
+        "color": "#6e2b8a",
+        "techStack": ["C#", "CAN Bus Protocol", "Assembly Language"],
+        "description": [
+            "Developed a new tool used for testing a client’s vehicle diagnostic tool. The tool allows the development team to test the many CAN functionalities of the diagnostic tool without the use of an actual vehicle present.",
+            "Constructed the emulator from scratch using C# while also using my knowledge of the CAN Bus to emulate many different vehicle types.",
+            "The emulator has been referred as scalable, reusable, and invaluable toward the advancement of vehicle diagnostic tools."
+        ]
+    },
+    {
+        "name":"XV6 Operating System",
+        "color": "#6e2b8a",
+        "github": "https://github.com/seanpaterson/xv6",
+        "techStack": ["C", "Assembly Language"],
+        "description": [
+            "Advanced the capabilities of an iteration of the Linux OS named XV6.",
+            "All code added was written with a mix of C and assembly language.",
+            "Notable improvements to the OS include valuable system calls and restructured the internal process scheduler to utilize more powerful data structures which improved processing speed from O(n) to O(log(n))."
+        ]
+    }
+]

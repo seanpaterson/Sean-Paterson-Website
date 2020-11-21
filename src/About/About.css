@@ -1,0 +1,15 @@
+.paragraph-styles{
+    text-align: justify;
+    font-size: calc(10px + 1vw);
+    color: white;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.name-text {
+    font-size: calc(10px + 1vw);
+    color: white;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 6vw
+}

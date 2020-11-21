@@ -1,0 +1,46 @@
+@keyframes textFadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+.center-space{
+    height: 100vh;
+    display: flex;
+    color: white;
+    direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catch-phrase-text{
+    font-size: calc(12px + 2.5vw);
+    animation: textFadeIn 1s;
+}
+
+.name-text{
+    font-size: calc(10px + 2.5vw);
+    animation: textFadeIn 2s;
+}
+
+.email-text{
+    font-size: calc(10px + 2.5vw);
+    animation: textFadeIn 2.5s;
+}
+
+.phone-text{
+    font-size: calc(10px + 2.5vw);
+    animation: textFadeIn 3s;
+}
+
+.button-style{
+    color: white;
+    transform: scale(2);
+    animation: textFadeIn 3.5s;
+}
