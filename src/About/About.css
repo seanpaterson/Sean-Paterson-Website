@@ -34,9 +34,9 @@
 .about-skill-progress {
     background: var(--light-teal);
     background-image: var(--blue);
+    color: var(--light-teal);
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 20;
 }
 
 .about-skill-text {

@@ -32,7 +32,7 @@ class AboutSkillProgress extends React.Component {
                 <Grid item xs={2} className="about-skill-text">{this.props.skill.name}</Grid>
                 <Grid item xs={8}>
                 <div className="about-skill-progress-bounds">
-                        <LinearProgress color='primary' className= "about-skill-progress" variant="determinate" value={this.state.level} />
+                        <LinearProgress className= "about-skill-progress" variant="determinate" value={this.state.level} />
                 </div>
                 </Grid>
                 <Grid item xs={2} className="about-skill-text">
