@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'introrustg-base2line';
+  src: url('./fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+       url('./fonts/introrustg-base2line-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+
+}

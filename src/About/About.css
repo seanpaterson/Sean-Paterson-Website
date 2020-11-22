@@ -1,15 +1,48 @@
+.about-body {
+    width: 100%;
+    background-image: linear-gradient(0.60turn, var(--dark-teal-trans), var(--blue)), url('../Images/About Image 2.jpg');
+    min-height: 100vh;
+    overflow: hidden;
+}
+
 .paragraph-styles{
+    font-family: roboto;
     text-align: justify;
-    font-size: calc(10px + 1vw);
+    font-size: calc(20px);
     color: white;
     padding-left: 4vw;
     padding-right: 4vw;
 }
 
-.name-text {
-    font-size: calc(10px + 1vw);
+.about-name-text {
+    font-family: introrustg-base2line;
+    font-size: calc(20px + 2vw);
     color: white;
     padding-left: 4vw;
     padding-right: 4vw;
-    padding-top: 6vw
+    padding-top: 10vw
+}
+
+.about-skill-progress-bounds {
+    width: 90%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.about-skill-progress {
+    background: var(--light-teal);
+    background-image: var(--blue);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20;
+}
+
+.about-skill-text {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-family: roboto;
+    font-size: calc(8px + 1vw);
+    color: white;
 }

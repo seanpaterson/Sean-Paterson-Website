@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/introrustg-base2line-webfont.woff';
+import './fonts/introrustg-base2line-webfont.woff2';
+import './fonts/Roboto-Medium.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

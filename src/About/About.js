@@ -1,12 +1,15 @@
+import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Parallax } from 'react-parallax';
+import AboutSkillProgress from './AboutSkillProgress.js';
+import skills from  '../Assets/Skills.json'
 import image from '../Images/About Image 1.jpg';
 import '../Assets/Colors.css';
 import './About.css';
 
 function About(props) {
     return ( 
-    <div  style={{ width: '100%', backgroundImage: `linear-gradient(0.60turn, var(--dark-teal), var(--blue))`, minHeight: '100vh', overflow: 'hidden' }}>
+    <div  className='about-body'>
         <Grid
         container
         direction="row"
@@ -19,8 +22,11 @@ function About(props) {
             bgImageAlt="About Image 1"
             strength={200}
             style={{ height: '30vw', width: '100%' }}>
-            <Grid className="name-text">Sean Paterson</Grid>
+            <Grid className="about-name-text">Sean Paterson</Grid>
         </Parallax>
+        <p className= "paragraph-styles">
+            About
+        </p>
         <div>
             <p className= "paragraph-styles">
                 I am a Full-Stack Software Developer in the Portland, Oregon area. I am a software developer 
@@ -46,6 +52,10 @@ function About(props) {
                 make it my priority to learn it as soon as possible!
             </p>
         </div>
+        <p className= "paragraph-styles">
+            Skills
+        </p>
+            {skills.map ((skill, key) => <AboutSkillProgress skill={skill}/>)}
         </Grid>
     </div>
     );

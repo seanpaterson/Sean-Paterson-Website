@@ -1,0 +1,42 @@
+[
+    {
+        "name": "C",
+        "level": 100
+    },
+    {
+        "name": "C++",
+        "level": 90
+    },
+    {
+        "name": "C# (.NET)",
+        "level": 95
+    },
+    {
+        "name": "Java",
+        "level": 90
+    },
+    {
+        "name": "Javascript",
+        "level": 90
+    },
+    {
+        "name": "NodeJS",
+        "level": 80
+    },
+    {
+        "name": "SQL",
+        "level": 80
+    },
+    {
+        "name": "React",
+        "level": 80
+    },
+    {
+        "name": "Angular",
+        "level": 70
+    },
+    {
+        "name": "Python",
+        "level": 70
+    }
+]

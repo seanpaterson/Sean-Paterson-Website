@@ -20,21 +20,25 @@
 }
 
 .catch-phrase-text{
+    font-family: roboto;
     font-size: calc(12px + 2.5vw);
     animation: textFadeIn 1s;
 }
 
 .name-text{
+    font-family: roboto;
     font-size: calc(10px + 2.5vw);
     animation: textFadeIn 2s;
 }
 
 .email-text{
+    font-family: roboto;
     font-size: calc(10px + 2.5vw);
     animation: textFadeIn 2.5s;
 }
 
 .phone-text{
+    font-family: roboto;
     font-size: calc(10px + 2.5vw);
     animation: textFadeIn 3s;
 }

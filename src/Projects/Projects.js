@@ -24,7 +24,7 @@ class Projects extends React.Component {
         var projectImages = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10];
         var projects = data;
         return (
-            <div  style={{ paddingTop:"4px", width: '100%', backgroundImage: `linear-gradient(0.10turn, var(--dark-teal), var(--blue))`, minHeight: '100vh', overflow: 'hidden' }}>
+            <div  className="project-body">
                 <Grid
                 container
                 direction="row"
