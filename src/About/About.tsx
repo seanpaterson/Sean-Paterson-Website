@@ -1,13 +1,19 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Parallax } from 'react-parallax';
-import AboutSkillProgress from './AboutSkillProgress.js';
-import skills from  '../Assets/Skills.json'
+import AboutSkillProgress from './AboutSkillProgress';
+import skills from  '../Assets/Skills.json';
 import image from '../Images/About Image 1.jpg';
 import '../Assets/Colors.css';
 import './About.css';
 
-function About(props) {
+interface Props {
+    windowWidth: number,
+    windowHeight: number,
+    handleResize: Function
+}
+
+function About(props:Props  & React.HTMLAttributes<HTMLDivElement>) {
     return ( 
     <div  className='about-body'>
         <Grid

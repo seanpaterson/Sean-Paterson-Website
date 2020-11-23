@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import image from '../Images/Header Image 1.jpg';
 import './Header.css';
 
-class Header extends React.Component {
+class Header extends React.Component <{ windowWidth:number, handleResize:any }, { open: boolean }> {
     
     constructor(props) {
         super(props);
@@ -37,7 +37,7 @@ class Header extends React.Component {
             <div style={{paddingBottom:"2.5vw"}}>
             <AppBar className="header-assets">
             {this.props.windowWidth > 500 ?
-                <Grid container className="grid" className="grid-item">
+                <Grid container className="grid-text">
                     <Grid item xs={3}>
                         <Avatar style={{transform: `scale(1.7)`, top: "15px"}} alt="Sean" src={image}/>
                     </Grid>

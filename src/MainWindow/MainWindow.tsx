@@ -12,7 +12,7 @@ import {
     Redirect
   } from "react-router-dom";
 
-class MainWindow extends React.Component {
+  class MainWindow extends React.Component<{}, { windowWidth: number, windowHeight: number }> {
     constructor(props) {
         super(props);
         this.state = { 

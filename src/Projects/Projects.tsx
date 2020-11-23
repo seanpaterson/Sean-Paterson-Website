@@ -1,8 +1,6 @@
-import DialogTitle from '@material-ui/core/DialogTitle';
-import Dialog from '@material-ui/core/Dialog';
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import ProjectCard from './ProjectCard.js';
+import ProjectCard from './ProjectCard';
 import data from  '../Assets/Projects.json'
 import image1 from '../Images/Veterns Affairs Office Website Texture.jpg';
 import image2 from '../Images/ByteBook Texture.jpg';

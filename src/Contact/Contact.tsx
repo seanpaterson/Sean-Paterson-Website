@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Parallax } from 'react-parallax';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';

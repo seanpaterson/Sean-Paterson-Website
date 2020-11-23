@@ -2,11 +2,10 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import ProjectDialog from "./ProjectDialog.js";
+import ProjectDialog from "./ProjectDialog";
 import './Projects.css';
 
-class ProjectCard extends React.Component {
+class ProjectCard extends React.Component <{ project:any, image:string, index: number }, { open: number }> {
     constructor(props) {
         super(props);
         this.state = {
@@ -33,7 +32,6 @@ class ProjectCard extends React.Component {
             <div className='card-bounds' style={{animation: `textFadeIn ${this.props.index / 2}s`}}>
                 <Card className='card' onClick={this.handleClickOpen}>
                 <CardMedia
-                    alt="Contemplative Reptile"
                     image={this.props.image}
                     className='card'
                     >

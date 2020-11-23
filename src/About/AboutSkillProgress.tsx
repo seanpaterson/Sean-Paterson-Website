@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import '../Assets/Colors.css';
 import './About.css';
 
-class AboutSkillProgress extends React.Component {
+class AboutSkillProgress extends React.Component <{ skill:any }, { level: number }> {
 
     constructor(props){
         super(props);
@@ -14,11 +14,11 @@ class AboutSkillProgress extends React.Component {
     }
 
     componentDidMount(){
-        setTimeout(function () {
+        setTimeout(() => {
             this.setState({
                 level: this.props.skill.level
             });
-        }.bind(this), 1000);
+        }, 1000);
     }
 
     render() {
