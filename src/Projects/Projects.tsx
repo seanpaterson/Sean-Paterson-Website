@@ -26,8 +26,8 @@ class Projects extends React.Component {
                 <Grid
                 container
                 direction="row"
-                justify="flex-start"
-                alignItems="flex-start"
+                justify="center"
+                alignItems="center"
                 style={{paddingTop: "40px", overflow: 'auto', paddingLeft: "4vw", paddingRight: "4vw"}}>
                     {projects.map((project, key) => <ProjectCard project={project} image={projectImages[key]} index= {key}/>)}
                 </Grid>

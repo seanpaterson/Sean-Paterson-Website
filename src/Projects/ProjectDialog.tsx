@@ -44,7 +44,7 @@ function ProjectDialog (props) {
             <DialogContent className="dialog-text">
                 Description:
                 <div style={{paddingTop: 'calc(1vw + 1px)', paddingBottom: 'calc(1vw + 1px)'}}>
-                <List style={{maxHeight: 100, overflow: 'auto', backgroundColor: 'white', color: 'black'}}>
+                <List style={{backgroundColor: 'white', color: 'black'}}>
                     {props.project.description.map(descItem => 
                     <div>
                         <ListItem>
