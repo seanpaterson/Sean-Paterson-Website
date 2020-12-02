@@ -1,7 +1,11 @@
 :root {
-    --dark-teal: rgb(57, 95, 86);
-    --dark-teal-trans: rgba(57, 95, 86, .60);
-    --light-teal:rgb(37, 107, 90);
-    --blood-orange: rgb(254, 102, 37);
-    --blue: rgb(118, 176, 226);
+
+
+    --queen-blue:#33658A;
+    --queen-blue-trans:rgba(51, 101, 138, .60);
+    --egg-shell: #F4E8C1;
+    --verdigris: #28AFB0;
+    --verdigris-trans: rgb(40, 175, 176, .60);
+    --burnt: #DE6E4B;
+    --mango: #deb74b;
 }

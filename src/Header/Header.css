@@ -1,7 +1,7 @@
 @import '../Assets/Colors.css';
 
 .header-assets {
-    background-image: linear-gradient(0.70turn, var(--dark-teal), var(--blue));
+    background-image: linear-gradient(0.70turn, var(--verdigris), var(--burnt));
     width: 100%;
 }
 
@@ -16,7 +16,7 @@
 .button-text {
     font-family: introrustg-base2line;
     font-size: 15px;
-    color: white;
+    color: var(--egg-shell);
 }
 
 .grid {
@@ -34,5 +34,5 @@
 }
 
 .collapse-paper {
-    background-image: linear-gradient(var(--blue), var(--light-teal));
+    background-image: linear-gradient(var(--verdigris), var(--burnt));
 }

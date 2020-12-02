@@ -20,6 +20,10 @@
         "level": 90
     },
     {
+        "name": "Typescript",
+        "level": 80
+    },
+    {
         "name": "NodeJS",
         "level": 80
     },
@@ -30,9 +34,5 @@
     {
         "name": "React",
         "level": 80
-    },
-    {
-        "name": "Angular",
-        "level": 70
     }
 ]

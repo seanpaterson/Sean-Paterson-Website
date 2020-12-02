@@ -10,7 +10,7 @@ import image from '../Images/Contact Image 1.jpg';
 import './Contact.css';
 
 
-function Contact(props) {
+function Contact() {
     return (
     <div style={{ height: window.innerHeight, width: '100%' }}>
         <Parallax

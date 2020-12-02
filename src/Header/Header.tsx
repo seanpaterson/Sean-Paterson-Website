@@ -12,7 +12,7 @@ import './Header.css';
 
 class Header extends React.Component <{ windowWidth:number, handleResize:any }, { open: boolean }> {
     
-    constructor(props) {
+    constructor(props:any) {
         super(props);
         this.state = { 
             open: false

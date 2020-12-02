@@ -18,8 +18,8 @@
     padding-top:4px;
     width: 100%;
     background-size: cover;
-    color: white;
-    background-image:  linear-gradient( to bottom, var(--dark-teal-trans), var(--blue)), url('../Images/Projects Image 1.jpg');
+    color: var(--egg-shell);
+    background-image:  linear-gradient( to bottom, var(--queen-blue-trans), var(--verdigris)), url('../Images/Projects Image 1.jpg');
     min-height: 100vh;
     overflow: hidden;
   }
@@ -31,7 +31,7 @@
 }
 
 .card:hover {
-    border:3px solid var(--blood-orange);
+    border:3px solid var(--burnt);
 }
 
 .card-bounds {
@@ -50,14 +50,14 @@
 
 .title-text {
     font-family: roboto;
-    color: white;
+    color: var(--egg-shell);
     font-size: 30px;
 }
 
 .dialog-text {
-    color: white;
+    color: var(--egg-shell);
 }
 
 .dialog {
-    background-image: linear-gradient(0.10turn,  var(--light-teal), var(--blue));
+    background-image: linear-gradient(0.10turn,  var(--queen-blue), var(--verdigris));
 }

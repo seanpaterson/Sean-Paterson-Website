@@ -1,5 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Carousel from 'react-material-ui-carousel'
 import { Parallax } from 'react-parallax';
 import AboutSkillProgress from './AboutSkillProgress';
 import skills from  '../Assets/Skills.json';
@@ -13,7 +15,14 @@ interface Props {
     handleResize: Function
 }
 
-function About(props:Props  & React.HTMLAttributes<HTMLDivElement>) {
+function About(props:Props) {
+    const items = [];
+    for(let i = 1; i <= 3; ++i)
+    {
+        items.push(
+            <Item index={i}/>
+        );
+    }
     return ( 
     <div  className='about-body'>
         <Grid
@@ -35,9 +44,14 @@ function About(props:Props  & React.HTMLAttributes<HTMLDivElement>) {
         </p>
         <div>
             <p className= "paragraph-styles">
-                Full-Stack Software Developer in the Portland, Oregon area trying to build fast, scalable, 
-                and intuitive web apps for the communities who surround me. Software development has an 
-                incredibly wide reach of the likes of which we’ve never seen before! I believe it’s vital 
+                <div style={{float: 'right', width: "360px", marginLeft: 'auto', marginRight: 'auto', paddingLeft: '2vw', paddingRight: '2vw'}}>
+                <Carousel>
+                    {items}
+                </Carousel>
+                </div>
+                Full-Stack Software Developer in the Portland, Oregon area building fast, scalable, 
+                and intuitive web apps for the communities that surround me. Software development has an 
+                incredibly wide reach the likes of which we’ve never seen before! I believe it’s vital 
                 to use this tool to better the lives of people over constructing intrusive AIs and 
                 monopolized web storefronts.If I don’t already know a tech stack you work in, I will 
                 make it my priority to learn it as soon as possible!
@@ -56,6 +70,20 @@ function About(props:Props  & React.HTMLAttributes<HTMLDivElement>) {
         </Grid>
     </div>
     );
+}
+
+type itemProps = {
+    index:number
+};
+
+function Item(props:itemProps)
+{
+    const slideName = "carousel-slide-";
+    return (
+        <Paper className="carousel-paper">
+            <div className={slideName + props.index} />
+        </Paper>
+    )
 }
 
 export default About;
