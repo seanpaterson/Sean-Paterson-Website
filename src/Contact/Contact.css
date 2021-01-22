@@ -21,31 +21,51 @@
 
 .catch-phrase-text{
     font-family: roboto;
-    font-size: calc(12px + 2.5vw);
+    font-size: calc(12px + 2.0vw);
     animation: textFadeIn 1s;
 }
 
 .name-text{
     font-family: roboto;
-    font-size: calc(10px + 2.5vw);
-    animation: textFadeIn 2s;
+    font-size: calc(10px + 2.0vw);
+    animation: textFadeIn 1.5s;
 }
 
 .email-text{
     font-family: roboto;
     font-size: calc(10px + 2.5vw);
+    animation: textFadeIn 2s;
+}
+
+.error-text{
+    font-family: roboto;
+    font-size: calc(5px + 1.5vw);
+    color:red
+}
+
+.email-container {
+    width: 50%;
+    max-width: 50%;
+    min-width: 300px;
     animation: textFadeIn 2.5s;
 }
 
-.phone-text{
-    font-family: roboto;
-    font-size: calc(10px + 2.5vw);
-    animation: textFadeIn 3s;
+.email-textbox {
+    width: 100%;
+    background: 'black';
+    opacity: 0.5;
 }
 
-.button-style{
-    color: white;
-    height: 100px;
-    width: 100px;
-    animation: textFadeIn 3.5s;
+.email-textbox-bounds {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.email-button-bounds {
+    padding-top: 20px;
+    width: 50%;
+}
+
+.email-button {
+    color: var(--queen-blue);
 }

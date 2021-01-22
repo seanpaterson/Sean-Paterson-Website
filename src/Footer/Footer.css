@@ -1,0 +1,18 @@
+.footer-assets {
+    background-image: linear-gradient(0.70turn, var(--verdigris), var(--burnt));
+    width: 100%;
+}
+
+.third-party-button-style {
+    color: var(--egg-shell);
+    height: '5vh';
+    width: '5vw';
+}
+
+.footer-text-style {
+    color: var(--egg-shell);
+    padding-left: 2vw;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}

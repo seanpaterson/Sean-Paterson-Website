@@ -3,17 +3,17 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer'
 
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
     Redirect
   } from "react-router-dom";
 
   class MainWindow extends React.Component<{}, { windowWidth: number, windowHeight: number }> {
-    constructor(props) {
+    constructor(props:object) {
         super(props);
         this.state = { 
             windowWidth: window.innerWidth,
@@ -48,7 +48,7 @@ import {
                             <Redirect to="/about" />
                         </Route>
                         <Route path="/contact">
-                            <Contact windowWidth={this.state.windowWidth} windowHeight={this.state.windowHeight} handleResize={this.handleResize}/>
+                            <Contact/>
                         </Route>
                         <Route path="/projects">
                             <Projects />
@@ -58,6 +58,7 @@ import {
                         </Route>
                         </Switch>
                     </div>
+                    <Footer />
                 </Router>
             </div>
         );
